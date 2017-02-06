@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+thead tr {
+  background-color: #000;
+  color: #fff;
+}
+
+thead tr th {
+  font-weight: bolder;
+  font-size: 1.4em;
+  padding: 0.5em;
+}
+
+tbody tr {
+  height: 3em;
+}
+
+tbody tr:nth-of-type(2n + 1) {
+  background-color: #ccc;
+}
+
+tbody tr td {
+  padding: 0.5em;
+  height: 3em;
+}
+
+tbody tr td.title {
+
+}
+
+tbody tr td.subs {
+  text-align: center;
+}
+
+tbody tr td.description {
+  overflow-y: scroll;
+}
+
+tbody tr:first-child {
+  font-weight: bold;
+}
